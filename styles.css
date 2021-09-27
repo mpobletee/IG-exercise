@@ -1,0 +1,42 @@
+body{
+    background-color: #bdbdbd;
+    margin:0;
+    font-family: 'Courier New', Courier, monospace;
+}       
+header{
+    background: white;
+    padding: 20px;
+}
+header h1{
+    margin:0;
+}
+
+div.post{
+    background: white;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+div.post img{
+    width: 100%;
+}
+div.container{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    text-align: center right;
+    color:gray;
+    
+}
+
+div.post h2, div.post p {
+    padding: 10px;
+    margin: 0;
+}
